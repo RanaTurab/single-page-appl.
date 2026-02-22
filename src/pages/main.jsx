@@ -1,5 +1,5 @@
 
-import Hero from '../components/Hero'
+import Hero from '../Hero'
 import Cont from '../cont'
 import Team from '../Team'
 

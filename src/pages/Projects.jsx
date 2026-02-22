@@ -7,8 +7,8 @@ import Cont from '../cont'
 function Projects() {
   return (
     <div>
-      <Team />
     <Cont />
+      <Team />
    
     </div>
   )
