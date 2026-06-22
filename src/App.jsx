@@ -7,6 +7,7 @@ import ContactPage from './pages/Contact'
 
 import Projects from './pages/Projects'
 import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
     </Routes>
       <Footer />
     </BrowserRouter>
-
+    <SpeedInsights />
     </div>
   
 )
